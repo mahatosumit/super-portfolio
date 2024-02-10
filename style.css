@@ -138,9 +138,11 @@ body {
 
 .hero .button {
     margin: 14px 0;
+    text-decoration: none;
 }
 
-.hero .button button {
+.hero .button a {
+    margin: 10px 0;
     outline: none;
     padding: 8px 16px;
     border-radius: 6px;
@@ -151,9 +153,10 @@ body {
     cursor: pointer;
     border: 2px solid transparent;
     transition: all 0.4s ease;
+    text-decoration: none;
 }
 
-.hero .button button:hover {
+.hero .button a:hover {
     border-color: #4070f4;
     background-color: rgb(225, 12, 248);
     color: aqua;
