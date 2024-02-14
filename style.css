@@ -254,31 +254,27 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
 }
-.card:hover{
-    background: #aabbf5;
-}
-.card{
-    width: 100%;
-    max-width: 400px;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    height: fit-content;
-    background: #D4D8E6;
-    padding: 20px;
-    border-radius: 10px;
-    transition:1s;
-    
+.card {
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  background: #d4d8e6;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 1s;
 }
 
-.card:hover{
-    transform:scale(1.3);
-    background:#ff800a;
-    box-shadow:2px 2px 2px #000;
-    z-index:2;
-        }
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 2px #000;
+  z-index: 2;
+  background: #aabbf5;
+}
 
 .card a{
     color: #4070f4;
