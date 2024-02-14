@@ -317,116 +317,148 @@ footer .text span a:hover {
     text-decoration: underline;
 }
  /* navbar for menu */
- 
-
-
-@media (max-width:768px) {
-    
+ .navbar1 {
+  display: none;
 }
 
 
-/* Smaller Screens */
+/* Small Devices (up to 425px) */
 @media only screen and (max-width: 425px) {
-    .box {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-    .icons {
-        display: inline-block;
-    }
+  .box {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 
-    #check:checked~.icons #menu-icon {
-        display: none;
-    }
+  /* .icons:checked ~ .navbar, */
+  .icons:checked ~ .navbar1 {
+    display: block;
+  }
 
-    .icons #close-icon {
-        display: none;
-    }
+  .navbar,
+  .navbar1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: violet;
+    text-align: center;
+    background: #edeff6;
+    backdrop-filter: blur(50px);
+  }
 
-    #check:checked~.icons #close-icon {
-        display: block;
-    }
+  .navbar a,
+  .navbar1 a {
+    display: block;
+    margin-top: 1.5rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
 
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 17.7rem;
-        background: violet;
-        text-align: center;
-        background: #EDEFF6;
-        backdrop-filter: blur(50px);
+  .media-icons {
+    display: none;
+  }
+  .hero .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
-
-    }
-
-    .navbar a {
-        display: block;
-        margin-top: 1.5rem;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
-    .media-icons{
-        display: none;
-    }
-    .hero .right img{
-        display: none;
-    }
+  .hero .right img {
+    display: none;
+  }
 }
 
-/* Medium Screens */
+/* Medium Devices (426px to 900px) */
 @media only screen and (min-width: 426px) and (max-width: 900px) {
-    .box {
-        grid-template-columns: 2fr;
-        grid-gap: 10px;
-    }
-    .header {
-        padding: 1.3rem 5%;
-    }
-
-    .icons {
-        display: inline-block;
-    }
-
-    #check:checked~.icons #menu-icon {
-        display: none;
-    }
-
-    .icons #close-icon {
-        display: none;
-    }
-
-    #check:checked~.icons #close-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 17.7rem;
-        background: violet;
-        text-align: center;
-        background: #EDEFF6;
-        backdrop-filter: blur(50px);
+  .box {
+    grid-template-columns: 2fr;
+    grid-gap: 10px;
+  }
 
 
-    }
+  .navbar
+  {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: violet;
+    text-align: center;
+    background: #edeff6;
+    backdrop-filter: blur(50px);
+    padding-top: 5px;
+  }
 
-    .navbar a {
-        display: block;
-        margin-top: 1.5rem;
-        font-size: 1.1rem;
-        text-align: center;
-    }
+ 
+  .navbar1 a {
+  
+    display: block;
+    margin-top: 1.5rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .header {
+    padding: 1.3rem 5%;
+  }
+.hero .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Larger Screens */
-@media only screen and (min-width: 901px) {
-    #parap{
-        display: none;
-    }}
+.right{
+  display: none;
+}
+.main, .main1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .icons {
+    display: inline-block;
+  }
 
+  #check:checked ~ .icons #menu-icon {
+    display: none;
+  }
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  #check:checked ~ .icons #close-icon {
+    display: block;
+  }
+
+  .navbar1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: violet;
+    text-align: center;
+    background: #edeff6;
+    backdrop-filter: blur(50px);
+  }
+
+  .navbar1 a {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+/* Large Devices (901px and above) */
+@media only screen and (min-width: 901px) {
+  #parap {
+    display: none;
+  }
+}
