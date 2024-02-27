@@ -479,6 +479,7 @@ footer .text span a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px auto 20px;
 }
   /* .icons {
     display: inline-block;
