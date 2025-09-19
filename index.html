@@ -1,262 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUMIT - Designer & Developer</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-
-  <body>
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar1">
-        <div class="container-fluid">
-          <a id="logo" href="https://www.mahatosumit.com.np/">SUMIT MAHATO</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://www.mahatosumit.com.np/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./design.html">Designs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./project.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://medium.com/@23mi058">Blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Certification </a>
-              </li>
-            </ul>
-            <div class="d-flex media-icons">
-              <a
-                href="https://www.linkedin.com/in/sumit-mahato-035650261/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-              <a href="https://twitter.com/sum_it_mahato" target="_blank"
-                ><i class="fa-brands fa-x-twitter"></i
-              ></a>
-              <a href="#" target="_blank"
-                ><i class="fa-solid fa-envelope"></i
-              ></a>
-              <a href="https://github.com/mahatosumit" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar Mahato - Mechatronics Engineer & AI Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Sumit Mahato</a>
             </div>
-          </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-      </nav>
-    </header>
+    </nav>
 
-    <div class="hero">
-      <div class="left" id="Contact">
-        <div class="text-one">Hello,</div>
-        <div class="text-two">I'm Sumit !</div>
-        <div class="text-three">Designer & Developer</div>
-        <div class="text-four">From Nepal</div>
-        <div class="button">
-          <a href="./Sumit Kumar Mahato_CV.pdf" download>
-            <button type="button">Resume</button>
-          </a>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Sumit Kumar Mahato</span></h1>
+                    <p class="hero-subtitle">Mechatronics Engineer | AI & Robotics Researcher | Developer | Innovator</p>
+                    <p class="hero-tagline">Turning AI & Robotics into Real-World Automation.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="./Sumit Kumar Mahato_CV.pdf" download class="btn btn-secondary">Download CV</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/mahatosumit" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sumit-mahato-035650261/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://medium.com/@23mi058" target="_blank" class="social-link">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                        <a href="https://kaggle.com/sumitmahato" target="_blank" class="social-link">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-shape">
+                        <img src="./un.svg" alt="Sumit Kumar Mahato" class="profile-img">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="right">
-        <img src="./un.svg" alt="" />
-      </div>
-    </div>
-
-    <section class="main" id="skills">
-      <h1>MY SKILLS</h1>
-      <div class="box">
-        <div class="card">
-          <img src="./1.jpg" />
-          <h2>Web Development</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-            maxime facilis aliquam fuga odio corrupti suscipit esse rerum quasi
-            iure. <a href="">Readmore</a>
-          </p>
-        </div>
-        <div class="card">
-          <img src="./2.jpg" />
-          <h2>UX/UI Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-            maxime facilis aliquam fuga odio corrupti suscipit esse rerum quasi
-            iure.<a href="">Readmore</a>
-          </p>
-        </div>
-        <div class="card">
-          <img src="./J.jpg" />
-          <h2>AI & Computer Vision</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-            maxime facilis aliquam fuga odio corrupti suscipit esse rerum quasi
-            iure.<a href="">Readmore</a>
-          </p>
-        </div>
-        <div class="card">
-          <img src="./1.jpg" />
-          <h2>PCB Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-            maxime facilis aliquam fuga odio corrupti suscipit esse rerum quasi
-            iure. <a href="">Readmore</a>
-          </p>
-        </div>
-      </div>
-      <!-- <button id="show-more-btn">Show More</button> -->
     </section>
 
-    <section class="main1" id="Project">
-      <h1>My Projects</h1>
-      <div class="box">
-        <div class="card">
-          <img src="./4.jpeg" href />
-          <h2>Image Search Engine</h2>
-          <p>
-            Just type the keyword in the search box and click on search you will
-            get the images.
-            <a href="https://mahatosumit.github.io/ImageSearchEngine/"
-              >Readmore</a
-            >
-          </p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">My Journey & Vision</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>My journey began with UI/UX design and web development, where I discovered my passion for creating intuitive digital experiences. This foundation led me deeper into the world of technology, eventually specializing in Robotics, AI/ML, and Embedded Systems.</p>
+                    <p>Today, I focus on developing intelligent automation solutions that bridge the gap between artificial intelligence and real-world applications. From autonomous vehicles to smart agriculture systems, I'm passionate about creating technologies that make a meaningful impact.</p>
+                    <div class="vision-box">
+                        <h3>My Vision</h3>
+                        <p>"To bridge AI, robotics, and automation to build scalable technologies for industries, agriculture, and smart mobility."</p>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img src="./5.jpeg" />
-          <h2>To- Do app</h2>
-          <p>
-            This is the figma prototype UI design of To-Do app. Specially design
-            to create a real time app.<a
-              href="https://www.figma.com/proto/E5AvDvWeU88yNT36TILkRT/Mobile-Design?type=design&node-id=1-2&t=uYrAjoQoPH1QRMax-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"
-              >Readmore</a
-            >
-          </p>
-        </div>
-        <div class="card">
-          <img src="./6.jpeg" />
-          <h2>QR Code Generator</h2>
-          <p>
-            Simply Just type a text or url and click on generate to get QR Code.
-            <a href="https://mahatosumit.github.io/QRCodeGenerator/"
-              >Readmore</a
-            >
-          </p>
-        </div>
-      </div>
-      <button
-        id="show-more-btn"
-        type="button"
-        onclick="location.href='./project.html'"
-      >
-        Show More
-      </button>
     </section>
 
-    <section class="main1" id="Project">
-      <h1>My Designs</h1>
-      <div class="box">
-        <div
-          class="card"
-          onclick="window.location.href='https://www.figma.com/proto/6VXDv61KJSoto9eFthxiQY/NTC?type=design&node-id=1-2&t=A7hu4KAal7mTisN9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'"
-        >
-          <img src="./11.jpeg.png" />
-          <h2>Nepal Telecom</h2>
-          <p>
-            It is a clone of Nepal telecom UI Design.
-            <a
-              href="https://www.figma.com/proto/6VXDv61KJSoto9eFthxiQY/NTC?type=design&node-id=1-2&t=A7hu4KAal7mTisN9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"
-              >Readmore</a
-            >
-          </p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My Technical Expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI/ML & Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">YOLOv8</span>
+                        <span class="skill-tag">CRNN</span>
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotics & Embedded Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ROS2</span>
+                        <span class="skill-tag">STM32</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Raspberry Pi</span>
+                        <span class="skill-tag">Pixhawk</span>
+                        <span class="skill-tag">IoT</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div
-          class="card"
-          onclick="window.location.href='https://www.figma.com/proto/E5AvDvWeU88yNT36TILkRT/Mobile-Design?type=design&node-id=1-2&t=uYrAjoQoPH1QRMax-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'"
-        >
-          <img src="./5.jpeg" />
-          <h2>To- Do app</h2>
-          <p>
-            This is the figma prototype UI design of To-Do app. Specially design
-            to create a real time app.<a
-              href="https://www.figma.com/proto/E5AvDvWeU88yNT36TILkRT/Mobile-Design?type=design&node-id=1-2&t=uYrAjoQoPH1QRMax-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"
-              >Readmore</a
-            >
-          </p>
-        </div>
-        <div
-          class="card"
-          onclick="window.location.href='https://www.figma.com/proto/ERAMjsBJy5tgENFCSpb74t/Untitled?node-id=3-2&mode=design&t=FVJO9dMe14OQiiEz-1'"
-        >
-          <img src="./12.jpeg.png" />
-          <h2>Tooth Fairy</h2>
-          <p>
-            UI design of Dental Site.
-            <a
-              href="https://www.figma.com/proto/ERAMjsBJy5tgENFCSpb74t/Untitled?node-id=3-2&mode=design&t=FVJO9dMe14OQiiEz-1"
-              >Readmore</a
-            >
-          </p>
-        </div>
-      </div>
-      <button
-        id="show-more-btn"
-        type="button"
-        onclick="location.href='./design.html'"
-      >
-        Show More
-      </button>
     </section>
 
-    <footer>
-      <div class="text">
-        <span
-          >Created By
-          <a href="https://www.mahatosumit.com.np/" target="_blank"
-            >Sumit Mahato</a
-          >
-          | &#169; 2024 All Rights Reserved</span
-        >
-      </div>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I Can Do For You</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>AI & Computer Vision Solutions</h3>
+                    <p>Develop intelligent systems for object detection, image recognition, and automated visual inspection using cutting-edge AI technologies.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Robotics & Embedded Systems</h3>
+                    <p>Design and build autonomous robots, IoT devices, and embedded systems for industrial automation and smart applications.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Create modern, responsive web applications using React, Next.js, and other cutting-edge technologies for optimal user experience.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Design intuitive and visually appealing user interfaces that enhance user experience and drive engagement.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Event Tech Solutions</h3>
+                    <p>Develop comprehensive platforms for hackathons, competitions, and tech events with registration, management, and showcase features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">My Latest Work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="./4.jpeg" alt="Zunobot">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Zunobot</h3>
+                        <p>STM32-based autonomous robotics project with advanced navigation and control systems.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">STM32</span>
+                            <span class="project-tag">Robotics</span>
+                            <span class="project-tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./5.jpeg" alt="TravaX ADAS">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TravaX ADAS</h3>
+                        <p>Advanced Driver Assistance System with lane detection, drowsiness detection, and traffic sign recognition.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="./6.jpeg" alt="KrishiBot">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>KrishiBot</h3>
+                        <p>Smart crop recommendation system using machine learning for precision agriculture.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Machine Learning</span>
+                            <span class="project-tag">Agriculture</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="./7.jpeg" alt="PlantFix">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>PlantFix</h3>
+                        <p>Plant species and health detection system using YOLOv8 for agricultural monitoring.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">YOLOv8</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">Agriculture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="./8.jpeg" alt="Chakravyuha">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chakravyuha</h3>
+                        <p>Official hackathon website for Mechatronics Department with registration and management system.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Web Development</span>
+                            <span class="project-tag">Event Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="./J.jpg" alt="TaskNest">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TaskNest</h3>
+                        <p>Student productivity platform with task management, scheduling, and collaboration features.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Full-Stack</span>
+                            <span class="project-tag">Productivity</span>
+                            <span class="project-tag">React.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Leadership & Community</h2>
+                <p class="section-subtitle">Making an Impact Beyond Code</p>
+            </div>
+            <div class="leadership-grid">
+                <div class="leadership-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="leadership-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Technical Lead – IEEE VTS, KPRIET</h3>
+                    <p class="leadership-period">2023–2024</p>
+                    <p>Led technical initiatives and mentored students in emerging technologies.</p>
+                </div>
+                <div class="leadership-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="leadership-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Chakravyuha Hackathon</h3>
+                    <p class="leadership-period">Website Developer</p>
+                    <p>Developed and maintained the official hackathon platform for the Mechatronics Department.</p>
+                </div>
+                <div class="leadership-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="leadership-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Community Contributor</h3>
+                    <p class="leadership-period">Ongoing</p>
+                    <p>Active contributor on GitHub, Kaggle, and Medium, sharing knowledge and open-source projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Achievements & Recognition</h2>
+                <p class="section-subtitle">Milestones in My Journey</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Runner-Up – Pitch Up Competition 2024</h3>
+                    <p>Recognized for innovative project presentation and technical excellence.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Best Project – College Science Day 2024</h3>
+                    <p>Awarded for outstanding technical project demonstrating practical innovation.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>1st Rank – Hetauda Science Exhibition 2019</h3>
+                    <p>Early recognition for scientific aptitude and project development skills.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Multiple Certifications</h3>
+                    <p>Certified in ADAS, Autonomous Driving, Robotics, Deep Learning, MATLAB, and CUDA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's Build Something Amazing Together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>sumitmahato0913@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Website</h3>
+                            <p>www.mahatosumit.com.np</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Coimbatore, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Sumit Kumar Mahato. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/mahatosumit" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sumit-mahato-035650261/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://medium.com/@23mi058" target="_blank" class="social-link">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    <a href="https://kaggle.com/sumitmahato" target="_blank" class="social-link">
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
